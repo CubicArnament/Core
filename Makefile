@@ -50,6 +50,6 @@ setup_dirs:
 
 # Очистить сборочные файлы
 clean:
-	rm -f $(OBJ_FILES) $(KERNEL_BIN)
+	rm -f $(OBJ_FILES) 
 
 .PHONY: all run clean setup_dirs
